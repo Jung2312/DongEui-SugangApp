@@ -1,12 +1,12 @@
 # DongEui-SugangApp
 
 ## <목차>
-  [1. 프로젝트 설명](#1-프로젝트-설명)
-  [2. 설계 및 구현](#2-설계-및-구현)
-  [3. 테스팅](#3-테스팅)
-  [4. 프로젝트 설치 및 실행 방법](#4-프로젝트-설치-및-실행-방법)
-  [5. 프로젝트 사용 방법](#5-프로젝트-사용-방법)
-  [6. 팀원](#6-팀원)
+[1. 프로젝트 설명](#1-프로젝트-설명)<br/>
+[2. 설계 및 구현](#2-설계-및-구현)<br/>
+[3. 테스팅](#3-테스팅)<br/>
+[4. 프로젝트 설치 및 실행 방법](#4-프로젝트-설치-및-실행-방법)<br/>
+[5. 프로젝트 사용 방법](#5-프로젝트-사용-방법)<br/>
+[6. 팀원](#6-팀원)
 
 
 ## 1. 프로젝트 설명
@@ -15,10 +15,10 @@
 - 구현 환경: Windows 10, MySQL
 - 개발 언어: JAVA, PHP
 - 개발 도구: 안드로이드 스튜디오
-- 개발 규모 산정
-  ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/90b621dd-8657-4a67-b64c-8499a9b11cfa)
-- 간트 차트
-  ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/a41b5b57-32af-40ab-b84e-a6931eb7442f)
+- 개발 규모 산정<br/>
+  ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/90b621dd-8657-4a67-b64c-8499a9b11cfa)<br/>
+- 간트 차트<br/>
+  ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/a41b5b57-32af-40ab-b84e-a6931eb7442f)<br/>
 
 
 ## 2. 설계 및 구현
