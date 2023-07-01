@@ -1,4 +1,4 @@
-# DongEui-SugangApp ![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/:user/:repo/:dependency)
+# DongEui-SugangApp <img src="https://img.shields.io/badge/PHP-#777BB4?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
 
 
 ## <목차>
