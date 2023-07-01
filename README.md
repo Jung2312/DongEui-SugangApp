@@ -121,7 +121,7 @@ DB에 저장 되어있는 20210001(학번)과 해당 학생의 pw로 로그인�
   
 ------------
   
-6. 팀원
+## 6. 팀원
 - [@JeongminHW](https://github.com/JeongminHW)
 - [@jeonmo](https://github.com/jeonmo)
 - [@Jung2312](https://github.com/Jung2312)
