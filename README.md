@@ -8,8 +8,8 @@
 [5. 프로젝트 사용 방법](#5-프로젝트-사용-방법)<br/>
 [6. 팀원](#6-팀원)
   
-
-  <br/>
+  
+  
 ## 1. 프로젝트 설명
 - 프로젝트 기간: 2023.03.21 ~ 2023.06.13
 - 프로젝트 목적: JAVA를 기반으로 스마트폰을 이용하여 언제 어디서든 수강신청을 사용할 수 있도록 하는 어플리케이션을 개발함으로써 프로젝트 관련 경험을 쌓는다.
@@ -24,7 +24,7 @@
   ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/a41b5b57-32af-40ab-b84e-a6931eb7442f)
   
   
-  <br/>
+  
 ## 2. 설계 및 구현
 - 기능 요구사항
   
@@ -54,8 +54,8 @@
   
 ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/b8872a8c-6bf6-44fd-b81e-dcadae40a677)
   
-
-  <br/>
+  
+  
 ## 3. 테스팅
 ### 3-1 화이트박스(장바구니 등록)
 - 활동 다이어그램
@@ -71,13 +71,13 @@
   
 ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/9f151fcd-26ba-4a9a-87f7-228c8b53b91e)
   
-
-  <br/>
+  
+  
 ## 4. 프로젝트 설치 및 실행 방법
 ++ 내용 추가
   
-
-  <br/>
+  
+  
 ## 5. 프로젝트 사용 방법
 - 메인 화면
 DB에 저장 되어있는 20210001(학번)과 해당 학생의 pw로 로그인을 한다. 로그인에 성공하면 수강신청 시스템의 메뉴를 선택할 수 있는 화면이 출력되게 된다.
@@ -114,8 +114,8 @@ DB에 저장 되어있는 20210001(학번)과 해당 학생의 pw로 로그인�
   
 ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/8a242eb7-c447-465a-b110-dbe9ffd42b77)![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/3433b7dd-0364-46d4-94fa-e19e861bfb65)
   
-
-  <br/>
+  
+  
 6. 팀원
 - [@JeongminHW](https://github.com/JeongminHW)
 - [@jeonmo](https://github.com/jeonmo)
