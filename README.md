@@ -1,4 +1,5 @@
-# DongEui-SugangApp
+# DongEui-SugangApp ![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/:user/:repo/:dependency)
+
 
 ## <목차>
 [1. 프로젝트 설명](#1-프로젝트-설명)<br/>
