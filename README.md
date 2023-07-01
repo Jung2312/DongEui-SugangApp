@@ -7,8 +7,8 @@
 [4. 프로젝트 설치 및 실행 방법](#4-프로젝트-설치-및-실행-방법)<br/>
 [5. 프로젝트 사용 방법](#5-프로젝트-사용-방법)<br/>
 [6. 팀원](#6-팀원)
-
-<br/>## 1. 프로젝트 설명
+<br/>
+## 1. 프로젝트 설명
 - 프로젝트 기간: 2023.03.21 ~ 2023.06.13
 - 프로젝트 목적: JAVA를 기반으로 스마트폰을 이용하여 언제 어디서든 수강신청을 사용할 수 있도록 하는 어플리케이션을 개발함으로써 프로젝트 관련 경험을 쌓는다.
 - 구현 환경: Windows 10, MySQL
@@ -18,8 +18,8 @@
   ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/90b621dd-8657-4a67-b64c-8499a9b11cfa)<br/>
 - 간트 차트<br/>
   ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/a41b5b57-32af-40ab-b84e-a6931eb7442f)<br/>
-
-<br/>## 2. 설계 및 구현
+<br/>
+## 2. 설계 및 구현
 - 기능 요구사항<br/>
 ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/8eef09e2-a7e7-4741-9b2f-071aac482148)<br/>
 - 클래스 설계<br/>
@@ -52,7 +52,8 @@
 ## 5. 프로젝트 사용 방법
 - 메인 화면
 DB에 저장 되어있는 20210001(학번)과 해당 학생의 pw로 로그인을 한다. 로그인에 성공하면 수강신청 시스템의 메뉴를 선택할 수 있는 화면이 출력되게 된다.<br/>
-![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/34c2708d-d168-42b4-904f-042de13e3197)<br/>
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/34c2708d-d168-42b4-904f-042de13e3197)
+<br/>
 - 메뉴 선택<br/>
 ![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/5f1421c3-729c-4abf-98ec-78649baa45ea)<br/>
 - 수강신청 등록
