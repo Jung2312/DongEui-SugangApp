@@ -38,9 +38,10 @@
 ## 3. 테스팅
 # 3-1 화이트박스(장바구니 등록)
 - 활동 다이어그램<br/>
-![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/f5e1ed09-62e3-48f3-8757-7b3dbab48447)<br/>
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/895f2e06-cb49-4bfe-b704-7a867167cf0a)<br/>
 - 분기 커버리지<br/>
-![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/b60a155e-f6ed-48eb-bc88-10f4a8dfd17e)<br/>
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/d6533e09-220c-4191-b693-8a8d260e06fe)
+<br/>
 
 # 3-2 블랙박스(수강신청 등록)
 - 의사 결정 테이블<br/>
