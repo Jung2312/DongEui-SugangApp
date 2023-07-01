@@ -1,8 +1,5 @@
 # DongEui-SugangApp 
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
 
 ## <목차>
 [1. 프로젝트 설명](#1-프로젝트-설명)<br/>
@@ -79,7 +76,37 @@
 ------------
   
 ## 4. 프로젝트 설치 및 실행 방법
-++ 내용 추가
+### 4-1 DB 구성
+- Admin
+    
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/2f84b1d4-7a24-4769-9948-95b19e74256d)
+  
+- Lecture
+  
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/59fa2ddb-1a33-4534-83d1-0c436e66dc2c)
+  
+- Registration
+  
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/2a697b66-20f0-4880-9292-6029c69e1e09)
+  
+- Shopping_basket
+  
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/b5ddb714-4e5e-4a0d-9359-66513943d1ad)
+
+- Student
+  
+![image](https://github.com/Jung2312/DongEui-SugangApp/assets/97083703/f9a0fcd6-1aba-4dd4-91b4-459a9b0e4841)
+  
+  
+### 4-2 PHP DB 코드 추가
+```
+    $con = mysqli_connect("sever", "name", "pw", "DB");
+    mysqli_query($con,'SET NAMES utf8');
+```
+- sever : 주소:포트번호
+- name : DB 사용자명
+- pw : DB 비밀번호
+- DB : 스키마명
   
 ------------
   
