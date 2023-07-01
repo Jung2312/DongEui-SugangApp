@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ApplicationForClasses">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="#0058A6"
+        app:layout_constraintBottom_toTopOf="@+id/RadioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="28dp"
+        android:text="수 강 신 청"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/RadioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="611dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/searchlecture_no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/majorRB"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="전공"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/minorRB"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="부전공"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/doubleMajRB"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="복수전공"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="교양"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:text="장바구니"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/searchlecture_no"
+        android:layout_width="322dp"
+        android:layout_height="0dp"
+        android:hint="강의 번호를 입력하세요."
+        android:textColorHint="#AEAEAE"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroup"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchbtn"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="#0058A6"
+        android:text="검색"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/searchlecture_no"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroup" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchlecture_no">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F0F0F0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtClassification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="이수구분"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/txtlectureno"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="강의번호"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/txtlecturename"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="강의명"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/txtprofessorname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="교수명"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/txttime"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="시간"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+                <TextView
+                    android:id="@+id/txtapply"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    android:text="신청"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lstStockItems"
+                android:layout_width="match_parent"
+                android:layout_height="479dp"
+                android:background="#ffffff"
+                android:scrollbars="horizontal|vertical" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lectureApplyBtn"
+        android:layout_width="205dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="42dp"
+        android:background="#0058A6"
+        android:text="수강신청"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalScrollView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/aRegisteredSubjectBtn"
+        android:layout_width="205dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="42dp"
+        android:background="#0058A6"
+        android:text="신청완료과목"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/lectureApplyBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalScrollView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

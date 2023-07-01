@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lvTemplate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/lectureNoText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/lectureTitleText"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/professorText"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="6dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delbtn"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_margin="4dp"
+        android:backgroundTint="#F04242"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="삭제"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
+
+
+</LinearLayout>
